@@ -1,0 +1,191 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 75px;
+  z-index: 99;
+}
+
+header img {
+  width: 128px;
+  margin: 20px 10px 0;
+  height: 45px;
+}
+
+header a {
+  margin-left: auto;
+  display: block;
+}
+
+#content {
+  margin-top: 75px;
+}
+
+.font--small {
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 12px;
+  padding-bottom: 3px;
+}
+
+.font--normal {
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+
+.font--big {
+  font-weight: bold;
+  letter-spacing: 3px;
+  line-height: 50px;
+  font-size: 26px;
+}
+
+.font__bottom {
+  margin-top: auto;
+  margin-bottom: 15px;
+}
+
+.font--cw {
+  color: white;
+}
+
+.font--cr {
+  color: red;
+}
+
+.pb20 {
+  padding-bottom: 20px;
+}
+
+.pb30 {
+  padding-bottom: 30px;
+}
+
+.pb40 {
+  padding-bottom: 40px;
+}
+
+.lh30 {
+  line-height: 30px;
+}
+
+.btn--radius__small {
+  background-color: #da6b64;
+  color: white;
+  width: 261px;
+  height: 41px;
+  border-radius: 18px;
+  margin: 20px 10px 15px;
+  text-align: center;
+}
+
+.btn--radius__small p {
+  font-size: 12px;
+  text-align: center;
+  top: 10px;
+  padding: 14px 0 15px;
+}
+
+#main {
+  background: url(img/main.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#main--content {
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 90px;
+}
+
+#main--content img {
+  width: 317px;
+  margin: 20px 0 40px;
+}
+
+#deadline {
+  background-color: #ebb94d;
+  text-align: center;
+  padding: 40px;
+}
+
+#deadline span {
+  background: white;
+  border-radius: 4px;
+}
+
+#deadline div.outer {
+  background-color: #da6b64;
+  width: 1028px;
+  height: 104px;
+  margin: 40px auto 60px;
+  border-radius: 52px;
+  position: relative;
+}
+
+#deadline div.inner {
+  position: absolute;
+  margin: 38px auto 38px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 28px;
+  color: white;
+}
+
+#free_for_engineer {
+  text-align: center;
+  font-size: 22px;
+  font-weight: lighter;
+  line-height: 40px;
+  padding: 40px 5px 5px;
+  background-image: url(img/introbottom.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+#free_for_engineer p:first-child {
+  padding: 10px;
+  margin: 20px auto 50px;
+  position: relative;
+  width: 800px;
+}
+
+#free_for_engineer p:first-child::before, #free_for_engineer p:first-child::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+
+#free_for_engineer p:first-child::before {
+  border-left: solid 3px #ebb94d;
+  border-top: solid 3px #ebb94d;
+  top: 0;
+  left: 0;
+}
+
+#free_for_engineer p:first-child::after {
+  border-right: solid 3px #ebb94d;
+  border-bottom: solid 3px #ebb94d;
+  bottom: 0;
+  right: 0;
+}
+
+#free_for_engineer span {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #ebb94d));
+  background: linear-gradient(transparent 50%, #ebb94d 50%);
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
